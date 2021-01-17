@@ -1,5 +1,5 @@
 
-<div class="container mx-auto flex justify-center mb-64 mt-5">
+<div class="container mx-auto flex justify-center mb-16 mt-5">
     <form class="m-4">
       <div class="flex">
           <div class="mr-3">
