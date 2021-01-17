@@ -17,9 +17,9 @@ use App\Http\Controllers\DetailController;
 Route::get('/', function(){
     return redirect('login');
 });
-Route::post('/urls', [UrlsController::class,'show'])->middleware(['auth']);
+Route::post('/urls', [UrlsController::class,'show']);
 
 
-Route::get('/urls', [UrlsController::class,'index'])->middleware(['auth']);
+Route::get('/urls', [UrlsController::class,'index']);
 
 require __DIR__.'/auth.php';
